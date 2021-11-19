@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  app:
+    build: .
+    container_name: node-red-aws
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./config/:/data
+
+volumes:
+  node-red-data:
