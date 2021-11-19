@@ -7,7 +7,7 @@ docker-compose up
 ```
 
 Access panel on
-https://flows.nodered.org/
+http://localhost:1880/
 
 ## Basic auth to panel
 
